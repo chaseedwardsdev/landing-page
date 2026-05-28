@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vw;
+    height: 48px;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+.links-right{
+    display:flex;
+}
+
+li {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
