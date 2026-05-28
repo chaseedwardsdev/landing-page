@@ -21,6 +21,7 @@
 
 .links-right{
     display:flex;
+    gap: 24px;
 }
 
 .links-left {
