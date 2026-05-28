@@ -38,13 +38,6 @@ a {
     color: inherit;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100vw;
-    height: 640px;
-}
-
 .panel-1 {
     background-color: #1F2937;
     display:flex;
@@ -179,4 +172,66 @@ a {
 .quote-box .author {
     text-align: end;
     font-size: 28px;
+}
+
+.panel-4 {
+    display:flex;
+    flex-basis: 340px;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 384px;
+    padding-right: 384px;
+    font-size: 36px;
+    flex-shrink: 0;
+    color: #1F2937;
+    font-weight: 900;
+    flex-direction: column;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50px;
+    height:50px;
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    color: white;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+.call-to-action .sub-text {
+   font-weight: 100;
+}
+
+.call-to-action .sign-up {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 192px;
+    height: 48px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vw;
+    height: 48px;
+    color: #F9FAF8;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    padding-left: 384px;
+    padding-right: 384px;
 }
