@@ -62,6 +62,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
+    gap: 14px;
 }
 
 .hero-main-text {
@@ -74,6 +75,16 @@ a {
     font-size: 18px;
     color: #aaabad;
 }
+
+.hero-sign-up {
+    flex-basis: 30px;
+    width: 110px;
+    border-radius: 6px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+}
+
+
 
 .hero-main-img {
     width: 640px;
