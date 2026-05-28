@@ -36,3 +36,34 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    height: 640px;
+}
+
+.panel-1 {
+    background-color: #1F2937;
+    display:flex;
+    flex-basis: 100vw;
+    height: 640px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 256px;
+    padding-right: 256px;
+    color: #F9FAF8;
+    font-size: 24px;
+    gap: 16px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-img {
+    width: 768px;
+    height: 432px;
+}
